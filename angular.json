@@ -253,9 +253,17 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "apps/project-angular/src/favicon.ico",
-              "apps/project-angular/src/assets"
+              "apps/project-angular/src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              }
             ],
-            "styles": ["apps/project-angular/src/styles.scss"],
+            "styles": [
+              "apps/project-angular/src/styles.scss",
+              "node_modules/ng-zorro-antd/ng-zorro-antd.min.css"
+            ],
             "scripts": []
           },
           "configurations": {
