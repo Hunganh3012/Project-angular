@@ -1,6 +1,32 @@
 {
   "version": 1,
   "projects": {
+    "features-login": {
+      "projectType": "library",
+      "root": "libs/features/login",
+      "sourceRoot": "libs/features/login/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/features/login"],
+          "options": {
+            "jestConfig": "libs/features/login/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/features/login/src/**/*.ts",
+              "libs/features/login/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
     "features-shell-feature": {
       "projectType": "library",
       "root": "libs/features/shell/feature",

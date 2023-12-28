@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@project-angular/features/login": ["libs/features/login/src/index.ts"],
       "@project-angular/features/shell/feature": [
         "libs/features/shell/feature/src/index.ts"
       ],
