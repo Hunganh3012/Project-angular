@@ -14,7 +14,33 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@project-angular/features/shell/feature": [
+        "libs/features/shell/feature/src/index.ts"
+      ],
+      "@project-angular/features/shell/ui": [
+        "libs/features/shell/ui/src/index.ts"
+      ],
+      "@project-angular/features/shell/ui/header": [
+        "libs/features/shell/ui/header/src/index.ts"
+      ],
+      "@project-angular/features/shell/ui/main-view": [
+        "libs/features/shell/ui/main-view/src/index.ts"
+      ],
+      "@project-angular/features/shell/ui/ui": [
+        "libs/features/shell/ui/ui/src/index.ts"
+      ],
+      "@project-angular/features/ui/feature": [
+        "libs/features/ui/feature/src/index.ts"
+      ],
+      "@project-angular/features/ui/header": [
+        "libs/features/ui/header/src/index.ts"
+      ],
+      "@project-angular/libs/features/shell/feature": [
+        "libs/libs/features/shell/feature/src/index.ts"
+      ],
+      "@project-angular/shell/feature": ["libs/shell/feature/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

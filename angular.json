@@ -1,11 +1,219 @@
 {
   "version": 1,
   "projects": {
+    "features-shell-feature": {
+      "projectType": "library",
+      "root": "libs/features/shell/feature",
+      "sourceRoot": "libs/features/shell/feature/src",
+      "prefix": "ha",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/features/shell/feature"],
+          "options": {
+            "jestConfig": "libs/features/shell/feature/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/features/shell/feature/src/**/*.ts",
+              "libs/features/shell/feature/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "features-shell-ui": {
+      "projectType": "library",
+      "root": "libs/features/shell/ui",
+      "sourceRoot": "libs/features/shell/ui/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/features/shell/ui"],
+          "options": {
+            "jestConfig": "libs/features/shell/ui/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/features/shell/ui/src/**/*.ts",
+              "libs/features/shell/ui/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "features-shell-ui-header": {
+      "projectType": "library",
+      "root": "libs/features/shell/ui/header",
+      "sourceRoot": "libs/features/shell/ui/header/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/features/shell/ui/header"],
+          "options": {
+            "jestConfig": "libs/features/shell/ui/header/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/features/shell/ui/header/src/**/*.ts",
+              "libs/features/shell/ui/header/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "features-shell-ui-main-view": {
+      "projectType": "library",
+      "root": "libs/features/shell/ui/main-view",
+      "sourceRoot": "libs/features/shell/ui/main-view/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/features/shell/ui/main-view"],
+          "options": {
+            "jestConfig": "libs/features/shell/ui/main-view/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/features/shell/ui/main-view/src/**/*.ts",
+              "libs/features/shell/ui/main-view/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "features-shell-ui-ui": {
+      "projectType": "library",
+      "root": "libs/features/shell/ui/ui",
+      "sourceRoot": "libs/features/shell/ui/ui/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/features/shell/ui/ui"],
+          "options": {
+            "jestConfig": "libs/features/shell/ui/ui/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/features/shell/ui/ui/src/**/*.ts",
+              "libs/features/shell/ui/ui/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "features-ui-feature": {
+      "projectType": "library",
+      "root": "libs/features/ui/feature",
+      "sourceRoot": "libs/features/ui/feature/src",
+      "prefix": "ha",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/features/ui/feature"],
+          "options": {
+            "jestConfig": "libs/features/ui/feature/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/features/ui/feature/src/**/*.ts",
+              "libs/features/ui/feature/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "features-ui-header": {
+      "projectType": "library",
+      "root": "libs/features/ui/header",
+      "sourceRoot": "libs/features/ui/header/src",
+      "prefix": "ha",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/features/ui/header"],
+          "options": {
+            "jestConfig": "libs/features/ui/header/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/features/ui/header/src/**/*.ts",
+              "libs/features/ui/header/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "libs-features-shell-feature": {
+      "projectType": "library",
+      "root": "libs/libs/features/shell/feature",
+      "sourceRoot": "libs/libs/features/shell/feature/src",
+      "prefix": "ha",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/libs/features/shell/feature"],
+          "options": {
+            "jestConfig": "libs/libs/features/shell/feature/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/libs/features/shell/feature/src/**/*.ts",
+              "libs/libs/features/shell/feature/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
     "project-angular": {
       "projectType": "application",
       "root": "apps/project-angular",
       "sourceRoot": "apps/project-angular/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -123,6 +331,32 @@
       },
       "tags": [],
       "implicitDependencies": ["project-angular"]
+    },
+    "shell-feature": {
+      "projectType": "library",
+      "root": "libs/shell/feature",
+      "sourceRoot": "libs/shell/feature/src",
+      "prefix": "ha",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/shell/feature"],
+          "options": {
+            "jestConfig": "libs/shell/feature/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/shell/feature/src/**/*.ts",
+              "libs/shell/feature/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
     }
   }
 }
