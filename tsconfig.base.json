@@ -48,6 +48,7 @@
         "libs/web/shell/feature/src/index.ts"
       ],
       "@project-angular/web/shell/ui": ["libs/web/shell/ui/src/index.ts"],
+      "@project-angular/web/trang-chu": ["libs/web/trang-chu/src/index.ts"],
       "@project-angular/web/web-not-found": [
         "libs/web/web-not-found/src/index.ts"
       ]

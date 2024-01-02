@@ -470,6 +470,32 @@
       },
       "tags": []
     },
+    "web-trang-chu": {
+      "projectType": "library",
+      "root": "libs/web/trang-chu",
+      "sourceRoot": "libs/web/trang-chu/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/web/trang-chu"],
+          "options": {
+            "jestConfig": "libs/web/trang-chu/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/web/trang-chu/src/**/*.ts",
+              "libs/web/trang-chu/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
     "web-web-not-found": {
       "projectType": "library",
       "root": "libs/web/web-not-found",
