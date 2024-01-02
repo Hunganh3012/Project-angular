@@ -1,5 +1,5 @@
 {
-  "npmScope": "project-angular",
+  "npmScope": "ha",
   "affected": {
     "defaultBase": "master"
   },
@@ -46,5 +46,5 @@
       "style": "scss"
     }
   },
-  "defaultProject": "project-angular"
+  "defaultProject": "ha"
 }

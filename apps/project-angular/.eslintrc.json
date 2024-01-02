@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "project-angular",
+            "prefix": "ha",
             "style": "kebab-case"
           }
         ]

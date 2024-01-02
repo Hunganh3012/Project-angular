@@ -5,7 +5,7 @@
       "projectType": "library",
       "root": "libs/features/login",
       "sourceRoot": "libs/features/login/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -57,7 +57,7 @@
       "projectType": "library",
       "root": "libs/features/shell/ui",
       "sourceRoot": "libs/features/shell/ui/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -83,7 +83,7 @@
       "projectType": "library",
       "root": "libs/features/shell/ui/header",
       "sourceRoot": "libs/features/shell/ui/header/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -109,7 +109,7 @@
       "projectType": "library",
       "root": "libs/features/shell/ui/main-view",
       "sourceRoot": "libs/features/shell/ui/main-view/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -135,7 +135,7 @@
       "projectType": "library",
       "root": "libs/features/shell/ui/ui",
       "sourceRoot": "libs/features/shell/ui/ui/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -364,7 +364,7 @@
         }
       },
       "tags": [],
-      "implicitDependencies": ["project-angular"]
+      "implicitDependencies": ["ha"]
     },
     "shell-feature": {
       "projectType": "library",
@@ -396,7 +396,7 @@
       "projectType": "library",
       "root": "libs/web/shell/data-access",
       "sourceRoot": "libs/web/shell/data-access/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -422,7 +422,7 @@
       "projectType": "library",
       "root": "libs/web/shell/feature",
       "sourceRoot": "libs/web/shell/feature/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -448,7 +448,7 @@
       "projectType": "library",
       "root": "libs/web/shell/ui",
       "sourceRoot": "libs/web/shell/ui/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -474,7 +474,7 @@
       "projectType": "library",
       "root": "libs/web/trang-chu",
       "sourceRoot": "libs/web/trang-chu/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -500,7 +500,7 @@
       "projectType": "library",
       "root": "libs/web/web-not-found",
       "sourceRoot": "libs/web/web-not-found/src",
-      "prefix": "project-angular",
+      "prefix": "ha",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
