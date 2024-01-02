@@ -40,7 +40,17 @@
       "@project-angular/libs/features/shell/feature": [
         "libs/libs/features/shell/feature/src/index.ts"
       ],
-      "@project-angular/shell/feature": ["libs/shell/feature/src/index.ts"]
+      "@project-angular/shell/feature": ["libs/shell/feature/src/index.ts"],
+      "@project-angular/web/shell/data-access": [
+        "libs/web/shell/data-access/src/index.ts"
+      ],
+      "@project-angular/web/shell/feature": [
+        "libs/web/shell/feature/src/index.ts"
+      ],
+      "@project-angular/web/shell/ui": ["libs/web/shell/ui/src/index.ts"],
+      "@project-angular/web/web-not-found": [
+        "libs/web/web-not-found/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -391,6 +391,110 @@
         }
       },
       "tags": []
+    },
+    "web-shell-data-access": {
+      "projectType": "library",
+      "root": "libs/web/shell/data-access",
+      "sourceRoot": "libs/web/shell/data-access/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/web/shell/data-access"],
+          "options": {
+            "jestConfig": "libs/web/shell/data-access/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/web/shell/data-access/src/**/*.ts",
+              "libs/web/shell/data-access/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "web-shell-feature": {
+      "projectType": "library",
+      "root": "libs/web/shell/feature",
+      "sourceRoot": "libs/web/shell/feature/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/web/shell/feature"],
+          "options": {
+            "jestConfig": "libs/web/shell/feature/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/web/shell/feature/src/**/*.ts",
+              "libs/web/shell/feature/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "web-shell-ui": {
+      "projectType": "library",
+      "root": "libs/web/shell/ui",
+      "sourceRoot": "libs/web/shell/ui/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/web/shell/ui"],
+          "options": {
+            "jestConfig": "libs/web/shell/ui/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/web/shell/ui/src/**/*.ts",
+              "libs/web/shell/ui/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "web-web-not-found": {
+      "projectType": "library",
+      "root": "libs/web/web-not-found",
+      "sourceRoot": "libs/web/web-not-found/src",
+      "prefix": "project-angular",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/web/web-not-found"],
+          "options": {
+            "jestConfig": "libs/web/web-not-found/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/web/web-not-found/src/**/*.ts",
+              "libs/web/web-not-found/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
     }
   }
 }
