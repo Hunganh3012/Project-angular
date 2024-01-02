@@ -8,7 +8,7 @@ export const appRoutes: Route[] = [
   {
     path: '',
     loadChildren: async () =>
-      (await import('@project-angular/features/login')).LoginModule,
+      (await import('@ha/features/login')).LoginModule,
   },
   // {
   //     path: '',

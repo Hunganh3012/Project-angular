@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ShellModule } from '@project-angular/features/shell/feature';
+import { ShellModule } from '@ha/features/shell/feature';
 import { AppComponent } from './app.component';
 
 @NgModule({

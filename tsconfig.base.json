@@ -15,41 +15,41 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@project-angular/features/login": ["libs/features/login/src/index.ts"],
-      "@project-angular/features/shell/feature": [
+      "@ha/features/login": ["libs/features/login/src/index.ts"],
+      "@ha/features/shell/feature": [
         "libs/features/shell/feature/src/index.ts"
       ],
-      "@project-angular/features/shell/ui": [
+      "@ha/features/shell/ui": [
         "libs/features/shell/ui/src/index.ts"
       ],
-      "@project-angular/features/shell/ui/header": [
+      "@ha/features/shell/ui/header": [
         "libs/features/shell/ui/header/src/index.ts"
       ],
-      "@project-angular/features/shell/ui/main-view": [
+      "@ha/features/shell/ui/main-view": [
         "libs/features/shell/ui/main-view/src/index.ts"
       ],
-      "@project-angular/features/shell/ui/ui": [
+      "@ha/features/shell/ui/ui": [
         "libs/features/shell/ui/ui/src/index.ts"
       ],
-      "@project-angular/features/ui/feature": [
+      "@ha/features/ui/feature": [
         "libs/features/ui/feature/src/index.ts"
       ],
-      "@project-angular/features/ui/header": [
+      "@ha/features/ui/header": [
         "libs/features/ui/header/src/index.ts"
       ],
-      "@project-angular/libs/features/shell/feature": [
+      "@ha/libs/features/shell/feature": [
         "libs/libs/features/shell/feature/src/index.ts"
       ],
-      "@project-angular/shell/feature": ["libs/shell/feature/src/index.ts"],
-      "@project-angular/web/shell/data-access": [
+      "@ha/shell/feature": ["libs/shell/feature/src/index.ts"],
+      "@ha/web/shell/data-access": [
         "libs/web/shell/data-access/src/index.ts"
       ],
-      "@project-angular/web/shell/feature": [
+      "@ha/web/shell/feature": [
         "libs/web/shell/feature/src/index.ts"
       ],
-      "@project-angular/web/shell/ui": ["libs/web/shell/ui/src/index.ts"],
-      "@project-angular/web/trang-chu": ["libs/web/trang-chu/src/index.ts"],
-      "@project-angular/web/web-not-found": [
+      "@ha/web/shell/ui": ["libs/web/shell/ui/src/index.ts"],
+      "@ha/web/trang-chu": ["libs/web/trang-chu/src/index.ts"],
+      "@ha/web/web-not-found": [
         "libs/web/web-not-found/src/index.ts"
       ]
     }
